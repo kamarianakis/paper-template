@@ -25,12 +25,12 @@
 *-blx.bib
 
 # Generated outputs (rebuild locally). This starter tracks two preview PDFs only.
+*.pdf
 build/*
 !build/.gitkeep
 !build/paper.pdf
 diffs/*
 !diffs/.gitkeep
-*.pdf
 !figures/*.pdf
 
 # OS / editor junk
