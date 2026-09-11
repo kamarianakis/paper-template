@@ -1,0 +1,105 @@
+% \RequirePackage{fix-cm}
+
+\documentclass[sigconf,screen,nonacm]{acmart}        
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{float}
+
+\begin{document}
+
+\title{A \emph{Great} Title}
+
+
+\author{Antonis Protopsaltis}
+\affiliation{%
+  \institution{University of Western Macedonia Greece, ORamaVR Switzerland}
+  \city{}
+  \country{}
+}
+
+\author{Manos Kamarianakis}
+\affiliation{%
+  \institution{FORTH - ICS Greece, University of Crete Greece, ORamaVR Switzerland}
+  \city{}
+  \country{}
+}
+
+
+\author{George Papagiannakis}
+\affiliation{%
+  \institution{FORTH - ICS Greece, University of Crete Greece, ORamaVR Switzerland}
+  \city{}
+  \country{}
+}
+
+
+
+
+\begin{abstract}
+This is an abstract
+\keywords{keyword1 \and keyword2 \and keyword3 }
+\end{abstract}
+
+
+
+\begin{teaserfigure}
+  \includegraphics[width=\textwidth, height=90pt]{example-image}
+  \caption{A teaser figure.}
+  \Description{A teaser figure showing an example image.}
+  \label{fig:teaser}
+\end{teaserfigure}
+
+\maketitle
+
+
+\section{Introduction}
+This is the introduction section. 
+A nice teaser figure is shown in Figure~\ref{fig:teaser}. 
+A nice reference on this one is \cite{example2022}.
+
+
+\section{An interesting section}
+\label{sec:section1}
+
+This is the content of the interesting section. Here is an interesting equation:
+\begin{equation}\label{eq:einstein}
+E = mc^2
+\end{equation}
+
+Einstein's famous equation is shown in \eqref{eq:einstein}.
+
+
+\section{Another interesting section}
+\label{sec:section2}
+
+This is the content of another interesting section. In \ref{sec:section1} we discussed the previous interesting section. Now, we build upon that discussion to explore further insights, referencing Einstein's famous equation \eqref{eq:einstein}.
+
+An important figure is shown in Figure~\ref{fig:important}. It is crucial to reference all figures appropriately in the text.
+
+\begin{figure}[hbt]
+\centering
+\includegraphics[width=0.45\textwidth, height=90pt]{example-image}
+\caption{An important figure. Change the 0.45 width but always less than 0.5. You can change figure to figure* if needed to have a two-column figure.}
+\Description{A description of the important figure showing an example image.}
+\label{fig:important}
+\end{figure}
+
+
+
+
+
+\section{Conclusions}
+\label{sec:conclusions}
+This is the conclusion section where we summarize the key findings and contributions of our work.
+
+\section{Acknowledgements}
+\label{sec:acknowledgements}
+
+The work  was partially funded by a great EU-funded project. 
+% \clearpage
+\bibliographystyle{plain}
+\bibliography{references} 
+
+\end{document}
+
+

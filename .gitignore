@@ -1,0 +1,40 @@
+# LaTeX build artifacts (also under build/)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*-blx.bib
+
+# Generated outputs (rebuild locally). This starter tracks two preview PDFs only.
+build/*
+!build/.gitkeep
+diffs/*
+!diffs/.gitkeep
+*.pdf
+!figures/*.pdf
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/

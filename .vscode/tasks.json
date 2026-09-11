@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Diff last commit",
+      "type": "shell",
+      "command": "mkdir -p diffs && git latexdiff --main LaTeX_Git_IEEE_Paper_Template.tex --whole-tree --latexmk --build-dir build --ignore-latex-errors --output diffs/diff-last.pdf HEAD~1 HEAD",
+      "windows": {
+        "command": "if not exist diffs mkdir diffs && git latexdiff --main LaTeX_Git_IEEE_Paper_Template.tex --whole-tree --latexmk --build-dir build --ignore-latex-errors --output diffs/diff-last.pdf HEAD~1 HEAD"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}
