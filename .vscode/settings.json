@@ -53,6 +53,6 @@
     "*.synctex.gz"
   ],
   "ltex.language": "en-US",
-  "latexDiff.mainFile": "LaTeX_Git_IEEE_Paper_Template.tex",
+  "latexDiff.mainFile": "paper.tex",
   "latexDiff.verbose": false
 }
