@@ -27,6 +27,7 @@
 # Generated outputs (rebuild locally). This starter tracks two preview PDFs only.
 build/*
 !build/.gitkeep
+!build/paper.pdf
 diffs/*
 !diffs/.gitkeep
 *.pdf
